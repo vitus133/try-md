@@ -1,17 +1,20 @@
 # try-md
 
 
-```mermaid
-stateDiagram
-    [*] --> Still
-    Still --> [*]
+---
+title: My PR
+---
+Figure 17 shows a simple A to B process.
+some markdown text
+...
+{{< mermaid >}} 
+    graph TB
+    A --> B
+{{< /mermaid >}}
 
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
+Figure 17. A to B
+more text
 
-```
 
 
 
