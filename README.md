@@ -1,7 +1,7 @@
 # try-md
 
 
-```plantuml
+```mermaid
 @startuml
 
 [*] --> State1
